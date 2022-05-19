@@ -1,7 +1,7 @@
 library(tidyverse)
 
 #Reading raw file
-states_data = read_csv("excel_data/SAGDP2N__ALL_AREAS_1997_2021.csv")
+states_data = read_csv("data/SAGDP2N__ALL_AREAS_1997_2021.csv")
 
 ##Rename the columns
 #Added letter "y" as it causes some issues
