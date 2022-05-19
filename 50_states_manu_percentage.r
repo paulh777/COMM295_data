@@ -3,7 +3,7 @@ library(tidyverse)
 #Reading raw file
 states_data = read_csv("data/SAGDP2N__ALL_AREAS_1997_2021.csv")
 
-##Rename the columns
+#Rename the columns
 #Added letter "y" as it causes some issues
 colnames(states_data) = c("state_name", "description", "unit", "y1997", "y1998", "y1999", "y2000", "y2001", "y2002", "y2003", "y2004", "y2005", "y2006", "y2007", "y2008", "y2009", "y2010", "y2011", "y2012", "y2013", "y2014", "y2015", "y2016", "y2017", "y2018", "y2019", "y2020", "y2021")
 
