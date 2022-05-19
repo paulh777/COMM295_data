@@ -9,12 +9,16 @@ Teaching Assitants: Paul Huang, Sheldon Xu
 
 ### Folders
 data : raw data files, csv and xlsx
+
 html : html versions of jupyter notebooks
+
 output_files : output files 
 
 ### Files
 .ipynb : all data wrangling and analysis is originally written in jupyter notebook and then converted to html and r
+
 .r : converted versions of corresponding jupyter notebook, for use in Rstudio locally
+
 .html : an alternate way to better view jupyter notebooks as github may cut off code blocks
 
 ## CONTACT
