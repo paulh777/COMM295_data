@@ -1,20 +1,20 @@
 # COMM295_Data
 
-## Overview
+## OVERVIEW
 This repository, COMM295_Data was created to archive data manipulation files for COMM 295 921 2022S1 Managerial Economics.
 
 Instructor: Ratna Shrestha
 
 Teaching Assitants: Paul Huang, Sheldon Xu
 
-### Folders
+### FOLDERS
 data : raw data files, csv and xlsx
 
 html : html versions of jupyter notebooks
 
 output_files : output files 
 
-### Files
+### FILES
 .ipynb : all data wrangling and analysis is originally written in jupyter notebook and then converted to html and r
 
 .r : converted versions of corresponding jupyter notebook, for use in Rstudio locally
