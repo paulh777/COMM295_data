@@ -14566,7 +14566,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span>
@@ -14582,7 +14582,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="c1">#Reading raw file</span>
@@ -14674,16 +14674,30 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <span class="c1">#Some data columns were classified as characters due to &quot;(NA)&quot; values which would cause pivotting errors</span>
 <span class="c1">#Fixing all columns to be double</span>
 
+<span class="n">states_data</span><span class="o">$</span><span class="n">y1997</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y1997</span><span class="p">)</span>
+<span class="n">states_data</span><span class="o">$</span><span class="n">y1998</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y1998</span><span class="p">)</span>
+<span class="n">states_data</span><span class="o">$</span><span class="n">y1999</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y1999</span><span class="p">)</span>
 <span class="n">states_data</span><span class="o">$</span><span class="n">y2000</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2000</span><span class="p">)</span>
+<span class="n">states_data</span><span class="o">$</span><span class="n">y2001</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2001</span><span class="p">)</span>
+<span class="n">states_data</span><span class="o">$</span><span class="n">y2002</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2002</span><span class="p">)</span>
+<span class="n">states_data</span><span class="o">$</span><span class="n">y2003</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2003</span><span class="p">)</span>
+<span class="n">states_data</span><span class="o">$</span><span class="n">y2004</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2004</span><span class="p">)</span>
 <span class="n">states_data</span><span class="o">$</span><span class="n">y2005</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2005</span><span class="p">)</span>
 <span class="n">states_data</span><span class="o">$</span><span class="n">y2006</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2006</span><span class="p">)</span>
 <span class="n">states_data</span><span class="o">$</span><span class="n">y2007</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2007</span><span class="p">)</span>
 <span class="n">states_data</span><span class="o">$</span><span class="n">y2008</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2008</span><span class="p">)</span>
 <span class="n">states_data</span><span class="o">$</span><span class="n">y2009</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2009</span><span class="p">)</span>
+<span class="n">states_data</span><span class="o">$</span><span class="n">y2010</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2010</span><span class="p">)</span>
 <span class="n">states_data</span><span class="o">$</span><span class="n">y2011</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2011</span><span class="p">)</span>
+<span class="n">states_data</span><span class="o">$</span><span class="n">y2012</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2012</span><span class="p">)</span>
 <span class="n">states_data</span><span class="o">$</span><span class="n">y2013</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2013</span><span class="p">)</span>
+<span class="n">states_data</span><span class="o">$</span><span class="n">y2014</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2014</span><span class="p">)</span>
+<span class="n">states_data</span><span class="o">$</span><span class="n">y2015</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2015</span><span class="p">)</span>
+<span class="n">states_data</span><span class="o">$</span><span class="n">y2016</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2016</span><span class="p">)</span>
 <span class="n">states_data</span><span class="o">$</span><span class="n">y2017</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2017</span><span class="p">)</span>
+<span class="n">states_data</span><span class="o">$</span><span class="n">y2018</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2018</span><span class="p">)</span>
 <span class="n">states_data</span><span class="o">$</span><span class="n">y2019</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2019</span><span class="p">)</span>
+<span class="n">states_data</span><span class="o">$</span><span class="n">y2020</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2020</span><span class="p">)</span>
 <span class="n">states_data</span><span class="o">$</span><span class="n">y2021</span> <span class="o">=</span> <span class="nf">as.double</span><span class="p">(</span><span class="n">states_data</span><span class="o">$</span><span class="n">y2021</span><span class="p">)</span>
 
 <span class="nf">head</span><span class="p">(</span><span class="n">states_data</span><span class="p">)</span>
@@ -14779,7 +14793,7 @@ Warning message in eval(expr, envir, enclos):
 <span class="n">states_reduced</span> <span class="o">=</span> <span class="n">states_data</span> <span class="o">%&gt;%</span>
     <span class="nf">filter</span><span class="p">(</span><span class="n">description</span> <span class="o">==</span> <span class="s">&quot;All industry total&quot;</span> <span class="o">|</span> <span class="n">description</span> <span class="o">==</span> <span class="s">&quot;Manufacturing&quot;</span><span class="p">)</span>
 
-<span class="c1">#Brining back numbered columns</span>
+<span class="c1">#Bringing back numbered columns</span>
 <span class="nf">colnames</span><span class="p">(</span><span class="n">states_reduced</span><span class="p">)</span> <span class="o">=</span> <span class="nf">c</span><span class="p">(</span><span class="s">&quot;state_name&quot;</span><span class="p">,</span> <span class="s">&quot;description&quot;</span><span class="p">,</span> <span class="s">&quot;unit&quot;</span><span class="p">,</span> <span class="s">&quot;1997&quot;</span><span class="p">,</span> <span class="s">&quot;1998&quot;</span><span class="p">,</span> <span class="s">&quot;1999&quot;</span><span class="p">,</span> <span class="s">&quot;2000&quot;</span><span class="p">,</span> <span class="s">&quot;2001&quot;</span><span class="p">,</span> <span class="s">&quot;2002&quot;</span><span class="p">,</span> <span class="s">&quot;2003&quot;</span><span class="p">,</span> <span class="s">&quot;2004&quot;</span><span class="p">,</span> <span class="s">&quot;2005&quot;</span><span class="p">,</span> <span class="s">&quot;2006&quot;</span><span class="p">,</span> <span class="s">&quot;2007&quot;</span><span class="p">,</span> <span class="s">&quot;2008&quot;</span><span class="p">,</span> <span class="s">&quot;2009&quot;</span><span class="p">,</span> <span class="s">&quot;2010&quot;</span><span class="p">,</span> <span class="s">&quot;2011&quot;</span><span class="p">,</span> <span class="s">&quot;2012&quot;</span><span class="p">,</span> <span class="s">&quot;2013&quot;</span><span class="p">,</span> <span class="s">&quot;2014&quot;</span><span class="p">,</span> <span class="s">&quot;2015&quot;</span><span class="p">,</span> <span class="s">&quot;2016&quot;</span><span class="p">,</span> <span class="s">&quot;2017&quot;</span><span class="p">,</span> <span class="s">&quot;2018&quot;</span><span class="p">,</span> <span class="s">&quot;2019&quot;</span><span class="p">,</span> <span class="s">&quot;2020&quot;</span><span class="p">,</span> <span class="s">&quot;2021&quot;</span><span class="p">)</span>
 
 <span class="nf">head</span><span class="p">(</span><span class="n">states_reduced</span><span class="p">)</span>
