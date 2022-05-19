@@ -1,6 +1,6 @@
 # COMM295_Data
 
-## Overiview
+## Overview
 This repository, COMM295_Data was created to archive data manipulation files for COMM 295 921 2022S1 Managerial Economics.
 
 Instructor: Ratna Shrestha
