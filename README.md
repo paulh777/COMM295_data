@@ -1,7 +1,7 @@
 # COMM295_data
 
 ## OVERVIEW
-This repository, COMM295_Data was created to archive data manipulation files for COMM 295 921 2022S1 Managerial Economics.
+This repository, COMM295_data was created to archive data manipulation files for COMM 295 921 2022S1 Managerial Economics.
 
 Instructor: Ratna Shrestha
 
