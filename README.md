@@ -5,7 +5,7 @@ This repository, COMM295_Data was created to archive data manipulation files for
 
 Instructor: Ratna Shrestha
 
-Teaching Assitants: Paul Hunag, Sheldon Xu
+Teaching Assitants: Paul Huang, Sheldon Xu
 
 ### FOLDERS
 data : raw data files, csv and xlsx
