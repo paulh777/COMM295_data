@@ -14,10 +14,12 @@ html : html versions of jupyter notebooks
 
 output_files : output files 
 
+standalone_r_files : converted versions of corresponding jupyter notebook, for use in Rstudio locally, uses url references so the r file can be downloaded independantly
+
 ### FILES
 .ipynb : all data wrangling and analysis is originally written in jupyter notebook and then converted to html and r
 
-.r : converted versions of corresponding jupyter notebook, for use in Rstudio locally
+.r : converted versions of corresponding jupyter notebook, for use in Rstudio locally, uses url references so the r file can be downloaded independantly
 
 .html : an alternate way to better view jupyter notebooks as github may cut off code blocks
 
