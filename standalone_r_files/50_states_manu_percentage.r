@@ -74,5 +74,5 @@ states_analysis = states_percentage_long %>%
     group_by(state_name) %>%
     summarize(obs = n())
 
-# There are 51 states in the data set, all of which have 25 calculations for the 25 years 1997-2021. This confirms that no year was left out.
-#There is 1275 rows in states_percentage_long which matches perfectly
+#There are 51 states in the data set, all of which have 25 calculations for the 25 years 1997-2021. This confirms that no year was left out.
+#There are 1275 rows in states_percentage_long which matches the above count perfectly
