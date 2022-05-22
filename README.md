@@ -10,7 +10,7 @@ Teaching Assitants: Paul Huang, Sheldon Xu
 ### FOLDERS
 data : raw data files, csv and xlsx
 
-html : html versions of jupyter notebooks
+html : html versions of jupyter notebooks, download and can be run independantly
 
 output_files : output files 
 
