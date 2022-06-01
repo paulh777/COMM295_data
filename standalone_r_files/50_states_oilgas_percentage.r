@@ -66,9 +66,9 @@ states_percentage_wide = states_percentage_long %>%
                 values_from = percentage_oilgas)
 
 #Saving file into output_files folder
-write_csv(states_percentage_long, "output_files/percentage_oilgas_long.csv")
+write_csv(states_percentage_long, "percentage_oilgas_long.csv")
 
-write_csv(states_percentage_wide, "output_files/percentage_oilgas_wide.csv")
+write_csv(states_percentage_wide, "percentage_oilgas_wide.csv")
 
 #Calculations to confirm procedures were done correctly
 states_analysis = states_percentage_long %>%
